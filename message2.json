@@ -1,0 +1,57 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.2",
+      "eventSource": "ceph:s3",
+      "awsRegion": "fr-clermont-mesocentre",
+      "eventTime": "2024-04-03T08:05:24.828135Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "770af59709e34bb3ac574bfdc2a85eb0"
+      },
+      "requestParameters": {
+        "sourceIPAddress": ""
+      },
+      "responseElements": {
+        "x-amz-request-id": "9c81178a-7853-4b88-bfe0-d5d116fda944.1333150835.6316920358329002430",
+        "x-amz-id-2": "4f764473-uca-oscar-fr-clermont-mesocentre"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "data",
+        "bucket": {
+          "name": "uca-eoscfe-data",
+          "ownerIdentity": {
+            "principalId": "770af59709e34bb3ac574bfdc2a85eb0"
+          },
+          "arn": "arn:aws:s3:::uca-eoscfe-data",
+          "id": "9c81178a-7853-4b88-bfe0-d5d116fda944.1333138354.60"
+        },
+        "object": {
+          "key": "Copernicus_DSM_COG_30_N00_00_E006_00_DEM.tif",
+          "size": 490119,
+          "eTag": "0c3f5310131359cfa2dfb028bf3510fd",
+          "versionId": "",
+          "sequencer": "C40D0D66D24C5F36",
+          "metadata": [
+            {
+              "key": "x-amz-content-sha256",
+              "val": "UNSIGNED-PAYLOAD"
+            },
+            {
+              "key": "x-amz-date",
+              "val": "20240403T080524Z"
+            },
+            {
+              "key": "x-amz-meta-fairease.catalog.mediatype",
+              "val": "COG"
+            }
+          ],
+          "tags": []
+        }
+      },
+      "eventId": "1712131524.912215.0c3f5310131359cfa2dfb028bf3510fd",
+      "opaqueData": ""
+    }
+  ]
+}
